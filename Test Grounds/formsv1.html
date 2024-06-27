@@ -12,16 +12,155 @@
    <h1> Forms </h1>
    <hr>
 
-   <form action="">
-      <label for="username"> Enter your username:</label>
-      <input type="text" placeholder="username" id="username">
-      <br>
-      <input type="password" placeholder="password">
-      <input type="range">
+   <form action="main.html">
+      <p>
+         <label for="username"> Enter your username:</label>
+         <input type="text" placeholder="username" id="username" name="username">
+      </p>
+      <p>
+         <label for="password"> Enter your password: </label>
+         <input type="password" placeholder="password" id="password" name="password">
+      </p>
+      <input type="range" name="range">
+      <br> <button> submit info </button>
 
    </form>
 
+   <hr>
+   <h1> Buttons </h1>
 
+   <button> Dont Click Me</button>
+   <p>
+      <form for="google" action="https://www.google.com/search">
+         <label for="google">Want to google something?? Go ahead!</label>
+         <input type="text" id="google" name="q">
+         <button id="google"> Google</button>
+      </form>
+   </p>
+
+   <p>
+      <form action="https://www.reddit.com/search?">
+         <label for="reddit"> Look up on reddit </label>
+         <input type="text" name="q" id="reddit">
+         <button id="reddit"> reddit it</button>
+      </form>
+   </p>
+
+   <h1> More inputs </h1>
+   <p>
+      <form action="">
+         <input type="checkbox" name="agree_tos" id="agree">
+         <label for="agree">Do you agree? </label>
+      </form>
+   </p>
+
+   <p>
+      <form for="preagree" action="">
+         <input type=checkbox id="preagree" checked>
+         <label for="preagree"> Do you want to unagree? </label>
+      </form>
+   </p>
+
+   <p>
+      <h5> Sound volume? </h5>
+      <form action="">
+         <label for="low"> Low</label>
+         <input type="radio" name="sound" id="low" value="low">
+         <br>
+         <label for="medium">medium</label>
+         <input type="radio" name="sound" id="medium" value="medium">
+         <br>
+         <label for="loud"> loud</label>
+         <input type="radio" name="sound" id="loud" value="loud">
+         <br>
+         <p>
+            <button> send inputs </button>
+         </p>
+
+      </form>
+   </p>
+
+   <p>
+      <form for="select-option" action=""> What pet do you like most?
+         <select name=" pets" id="select-option">
+            <option value="" selected>Select One</option>
+            <option value="cat"> Cat</option>
+            <option value="dog">Dog</option>
+            <option value="cow">Cow</option>
+         </select>
+         <button>Decide</button>
+      </form>
+   </p>
+
+   <hr>
+   <h1> Section 5 Exercise 6, Assignment</h1>
+
+   <p>
+      <form>
+         <label for="username">Username</label>
+         <input type="text" placeholder=username id=username required>
+         <br>
+         <label for=password>Password</label>
+         <input type="password" placeholder="password" id=password minlength="3">
+         <br>
+
+         <button>Register</button>
+      </form>
+   </p>
+
+   <hr>
+
+   <h1>Section 5, Final Assignment</h1>
+   <div>
+      <h1>Race Registration!</h1>
+      <form action="" for="marathonsignup">
+         <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" required>
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" required>
+
+         <p>
+
+
+            <h4>Select a race:</h4>
+            <label for="5k">Fun Run 5k</label>
+            <input type="radio" id="5k" name="mar" value="5k">
+            <br>
+            <label for="halfm"> Half Marathon</label>
+            <input type="radio" id="halfm" name="mar" value="halfMarathon">
+            <br>
+            <label for="fullm"> Full Marathon</label>
+            <input type="radio" id="fullm" name="mar" value="fullMarathon">
+
+         </p>
+
+         <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required>
+         </p>
+
+
+         <p>
+            <label for="marathonsignup">Select Age Group</label>
+            <select name="age" id="marathonsignup">
+               <option value="under18"> Under 18</option>
+               <option value="over18"> Over 18</option>
+               <option value="dead"> Dead </option>
+            </select>
+
+         </p>
+         <button>Register!</button>
+      </form>
+   </div>
+
+
+
+   <footer>
+      <h4> <a href="main.html"> return to main menu </a></h4>
+   </footer>
 
 </body>
 
