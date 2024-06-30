@@ -1,0 +1,16 @@
+h1{
+   color: red;
+   text-align: center;
+   text-decoration: overline gray wavy;
+   letter-spacing: 2px;
+}
+
+h2{
+   color: rgb(21,123,54);
+   text-align: center;
+}
+
+p{
+   line-height: 1.5;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
