@@ -10,6 +10,29 @@ button{
    background-color: yellow;
 }
 
+#no{
+   text-align: center;
+   color: blue;
+}
+
+#no2{
+text-align: center;
+}
+
+li{
+   color:blue;
+}
+
+.special{
+   color:grey;
+}
+
+.clear{
+   background: red;
+   color: white;
+}
+
+
 #submit2{
    color:violet;
    background-color: green;
@@ -26,4 +49,23 @@ h2{
 p{
    line-height: 1.5;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+   font-size: 30px;
+   color:teal;
+}
+
+#dislikes a{
+  font-weight: bold;
+   color: red;
+}
+
+#ex10s7{
+   text-align: center;
+}
+
+#fixup{
+   color: azure;
+   text-decoration: none;
 }
