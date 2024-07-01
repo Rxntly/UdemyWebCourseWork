@@ -5,6 +5,19 @@ h1{
    letter-spacing: 2px;
 }
 
+button{
+   color: black;
+   background-color: yellow;
+}
+
+#submit2{
+   color:violet;
+   background-color: green;
+}
+
+body{
+   background-color: aqua;
+}
 h2{
    color: rgb(21,123,54);
    text-align: center;
