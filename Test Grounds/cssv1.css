@@ -69,3 +69,12 @@ header a{
    color: azure;
    text-decoration: none;
 }
+
+button[id="submit"]:hover{
+color:aqua;
+}
+
+h1::selection{
+   background-color: orange;
+   color:white;
+}
