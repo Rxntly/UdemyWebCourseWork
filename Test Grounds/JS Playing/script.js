@@ -40,9 +40,32 @@
 // console.log(result);
 
 
-const balanceE = document.querySelector('.balance-number');
+// const balanceE = document.querySelector('.balance-number');
 
-balanceE.addEventListener("click", function(){
-balanceE.style.color = "red";
-})
+// balanceE.addEventListener("click", function(){
+// balanceE.style.color = "red";
+// })
+
+function ryan(x1, x2){
+   const x3 = x1-x2;
+   return x3;
+
+}
+const results = ryan(200,50);
+console.log(results);
+
+
+
+for (let i = 0; i < 11; i++) {
+   if (i % 2 == 0)
+       
+continue;
+   console.log(i);}
+   
+   let i=0; 
+while(
+i>7
+){ 
+    console.log(i); 
+}
 
