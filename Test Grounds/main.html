@@ -41,6 +41,22 @@
       </ul>
    </nav>
 
+
+   <script>
+      /* setTimeout(() => {
+         document.body.style.backgroundColor = 'red';
+         setTimeout(() => {
+            document.body.style.backgroundColor = 'orange';
+         }, 1000)
+      }, 1000) */
+
+      const delayedColorChange = (newColor, delay, doNext) => {
+         setTimeout(() => {
+            document.body.style.backgroundColor = newcolor;
+            doNext();
+         }, delay);
+      }
+   </script>
 </body>
 
 </html>
